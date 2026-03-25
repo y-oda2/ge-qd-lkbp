@@ -85,6 +85,14 @@ print("Lowest 6 energies (meV):", energies[:6])
 print("Qubit gap (meV):", energies[1] - energies[0])
 ```
 
+## Known limitations and future work
+
+- [ ] `sys.path.append('Code')` in all modules should be replaced with a proper package structure (`__init__.py` + `pip install -e .`)
+- [ ] `ho_mixed_matelems.p` regeneration script not yet included — currently requires running a separate sympy notebook, that needs to be uploaded
+- [ ] No unit tests; a `tests/` directory with at least orthonormality and Hermiticity checks would be valuable
+- [ ] Example notebook (`examples/single_qubit.ipynb`) not yet included
+- [ ] `z_wavefncs_coeffs.pk` for a standard set of F_z values and its generating code should be deposited on Zenodo with a download script
+
 ## References
 
 - Wang et al., *npj Quantum Information* **10**, 102 (2024) — heterostructure model and sweet spots
