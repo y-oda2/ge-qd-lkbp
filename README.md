@@ -98,4 +98,5 @@ print("Qubit gap (meV):", energies[1] - energies[0])
 - Wang et al., *npj Quantum Information* **10**, 102 (2024) — heterostructure model and sweet spots
 - Burkard et al., *PRR* **2**, 043180 (2020) — Airy z-subband basis
 - Luttinger & Kohn, *Phys. Rev.* **97**, 869 (1955) — k·p Hamiltonian
+- Luttinger, "Quantum Theory of Cyclotron Resonance in Semiconductors: General Theory" — k·p Hamiltonian
 - Bir & Pikus, *Symmetry and Strain-Induced Effects in Semiconductors* (1974) — strain Hamiltonian
