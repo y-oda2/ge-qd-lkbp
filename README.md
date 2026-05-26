@@ -38,7 +38,7 @@ model_params  →  z_subbands  →  orbital_basis  →  hamiltonian
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/ge-qd-lkbp.git
+git clone https://github.com/y-oda2/ge-qd-lkbp.git
 cd ge-qd-lkbp
 pip install -r requirements.txt
 ```
